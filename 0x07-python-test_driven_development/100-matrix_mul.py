@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
 
-Module composed by a function that multiplies 2 matrices
+ function that multiplies 2 matrices
 
 """
 
 
 def matrix_mul(m_a, m_b):
-    """ Function that multiplies 2 matrices
+    """ multiplies 2 matrices
 
     Args:
         m_a: matrix a
@@ -17,13 +17,13 @@ def matrix_mul(m_a, m_b):
         result of the multiplication
 
     Raises:
-        TypeError: if m_a or m_b aren't a list
-        TypeError: if m_a or m_b aren't a list of a lists
-        ValueError: if m_a or m_b are empty
-        TypeError: if the lists of m_a or m_b don't have integers or floats
-        TypeError: if the rows of m_a or m_b don't have the same size
-        ValueError: if m_a and m_b can't be multiplied
-
+        TypeError: 
+        if m_a or m_b aren't a list
+        if m_a or m_b aren't a list of a lists
+        if m_a or m_b are empty
+        if the lists of m_a or m_b don't have integers or floats
+        if the rows of m_a or m_b don't have the same size
+        if m_a and m_b can't be multiplied
 
     """
 
