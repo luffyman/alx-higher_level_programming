@@ -1,20 +1,20 @@
 #!/usr/bin/python3
 """
 
-This module is composed by a function that adds two numbers
+This module has a function that adds 2 numbers
 
 """
 
 
 def add_integer(a, b=98):
-    """ Function that adds two integer and/or float numbers
+    """ adds two integer and/or float numbers
 
     Args:
-        a: first number
-        b: second number
+        a: 1st number
+        b: 2nd number
 
     Returns:
-        The addition of the two given numbers
+        The addition of the 2 given numbers
 
     Raises:
         TypeError: If a or b aren't integer and/or float numbers

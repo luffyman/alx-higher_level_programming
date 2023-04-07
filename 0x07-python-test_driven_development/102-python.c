@@ -3,9 +3,7 @@
 #include <Python.h>
 
 /**
- * print_python_string - Prints string information
- *
- * @p: Python Object
+ *  Prints string information
  * Return: no return
  */
 void print_python_string(PyObject *p)
